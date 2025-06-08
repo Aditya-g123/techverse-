@@ -1,0 +1,30 @@
+{
+  "commands": [
+    {
+      "step": 1,
+      "command": "npm install",
+      "description": "Install all project dependencies",
+      "required": true
+    },
+    {
+      "step": 2,
+      "command": "npm run dev",
+      "description": "Start the development server",
+      "required": true,
+      "url": "http://localhost:3000"
+    }
+  ],
+  "environment": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://ovsjphatiwxggmvbdpas.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im92c2pwaGF0aXd4Z2dtdmJkcGFzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc5MDgzODEsImV4cCI6MjA2MzQ4NDM4MX0.6_uwzsfJilbISS6zVqvBsBP3JUfS1WYVXD_xTdRq1kg",
+    "NEXT_PUBLIC_SITE_URL": "http://localhost:3000"
+  },
+  "features": {
+    "database": "Supabase connected and configured",
+    "forms": "Multiple submission methods (Database + Google Form)",
+    "whatsapp": "Integrated with +91 9120984300",
+    "admin": "Dashboard available at /admin",
+    "responsive": "Mobile-first design",
+    "animations": "Smooth transitions and effects"
+  }
+}
