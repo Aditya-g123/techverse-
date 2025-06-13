@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Techverse Educational Website
 
 A modern educational platform built with Next.js, Supabase, and Tailwind CSS.
@@ -106,3 +107,7 @@ npm start
 - Phone: +91 9120984300
 - Email: info@techverse.com
 - WhatsApp: Available via floating button
+=======
+# techverse-
+Techverse: Where Learning Meets Innovation
+>>>>>>> 804748f8ae932d7b1683d3b874700b50d5d80da8
