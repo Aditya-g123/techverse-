@@ -12,20 +12,8 @@ A modern educational platform built with Next.js, Supabase, and Tailwind CSS.
 
 ### Installation
 
-1. **Clone and install dependencies:**
-\`\`\`bash
-git clone <your-repo>
-cd techverse-website
-npm install
-\`\`\`
-
 2. **Set up environment variables:**
-Create a `.env.local` file in the root directory:
-\`\`\`env
-NEXT_PUBLIC_SUPABASE_URL=https://ovsjphatiwxggmvbdpas.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im92c2pwaGF0aXd4Z2dtdmJkcGFzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc5MDgzODEsImV4cCI6MjA2MzQ4NDM4MX0.6_uwzsfJilbISS6zVqvBsBP3JUfS1WYVXD_xTdRq1kg
-NEXT_PUBLIC_SITE_URL=http://localhost:3000
-\`\`\`
+
 
 3. **Run the development server:**
 \`\`\`bash
@@ -110,4 +98,4 @@ npm start
 =======
 # techverse-
 Techverse: Where Learning Meets Innovation
->>>>>>> 804748f8ae932d7b1683d3b874700b50d5d80da8
+>>>>>>> 
