@@ -6,9 +6,6 @@ A modern educational platform built with Next.js, Supabase, and Tailwind CSS.
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js 18+ 
-- npm or yarn
-- Supabase account
 
 ### Installation
 
@@ -25,11 +22,6 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## 🗄️ Database Setup
 
-The project includes SQL scripts to set up your Supabase database:
-
-1. Go to your Supabase project dashboard
-2. Navigate to SQL Editor
-3. Run the script: `scripts/create-working-inquiries-table.sql`
 
 ## 📱 Features
 
@@ -44,10 +36,7 @@ The project includes SQL scripts to set up your Supabase database:
 
 ## 🔧 Configuration
 
-### Supabase Setup
-- Database URL and keys are pre-configured
-- RLS policies are set up for security
-- Tables: `inquiries`, `enrollments`
+### base Setup
 
 ### Contact Methods
 - Google Form: https://forms.gle/qUh9ZwGpM8fBagcn9
