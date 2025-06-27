@@ -11,7 +11,7 @@ export default function AboutSection() {
       image: " ",
       description:
         "Visionary leader with 3+ years in tech education. Passionate about democratizing quality education.",
-      achievements: ["10,000+ Students Mentored", "95% Placement Rate", "Industry Expert"],
+      achievements: ["1000+ Students Mentored", "95% Placement Rate", "Industry Expert"],
       social: {
         linkedin: "https://www.linkedin.com/in/aditya-gupta-297575323/",
         twitter: "#",
@@ -19,7 +19,7 @@ export default function AboutSection() {
       },
     },
     {
-      name: "Priya Sharma",
+      name: "Riya",
       role: "Head of Curriculum",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face",
       description:
@@ -32,7 +32,7 @@ export default function AboutSection() {
       },
     },
     {
-      name: "Rahul Verma",
+      name: "Saket Gupta",
       role: "Technical Director",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
       description: "Full-stack developer and architect. Leads technical training and hands-on project development.",
