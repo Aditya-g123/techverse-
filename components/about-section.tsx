@@ -34,7 +34,7 @@ export default function AboutSection() {
     {
       name: "Saket Gupta",
       role: "Technical Director",
-      image: "",
+      image: "https://chatgpt.com/s/m_685eee9c08148191b8052a67756a447b",
       description: "Full-stack developer and architect. Leads technical training and hands-on project development.",
       achievements: ["Tech Architect", "Open Source Contributor", "Mentor"],
       social: {
