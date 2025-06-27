@@ -34,7 +34,7 @@ export default function AboutSection() {
     {
       name: "Saket Gupta",
       role: "Technical Director",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
+      image: "",
       description: "Full-stack developer and architect. Leads technical training and hands-on project development.",
       achievements: ["Tech Architect", "Open Source Contributor", "Mentor"],
       social: {
