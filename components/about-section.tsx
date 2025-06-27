@@ -21,7 +21,7 @@ export default function AboutSection() {
     {
       name: "Riya",
       role: "Head of Curriculum",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face",
+      image: "",
       description:
         "Expert curriculum designer with experience at top tech companies. Ensures industry-relevant content.",
       achievements: ["15+ Years Experience", "Curriculum Expert", "Industry Consultant"],
