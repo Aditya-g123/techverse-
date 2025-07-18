@@ -294,7 +294,7 @@ export default function ExploreSection() {
                         rel="noopener noreferrer"
                         className="flex items-center"
                       >
-                        Find Accommodation
+                        Find Accommodations
                         <ExternalLink className="ml-2 w-5 h-5" />
                       </a>
                     </Button>
