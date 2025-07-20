@@ -37,7 +37,7 @@ export async function enrollInCourse(enrollmentData: EnrollmentData): Promise<En
   } = await supabase.auth.getUser()
 
   if (!user) {
-    throw new Error("User must be logged in to enroll")
+    throw new Error("User must be fill the from for enroll courses,Thanks!")
   }
 
   // Check if user is already enrolled in this course
