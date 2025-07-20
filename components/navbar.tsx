@@ -48,7 +48,7 @@ export default function Navbar() {
               asChild
               className="text-slate-200 hover:text-cyan-400 transition-all duration-300 hover:scale-105"
             >
-              <Link href="/#contact">Contact</Link>
+              <Link href="/#contact">Explore</Link>
             </Button>
           </div>
         </div>
