@@ -40,8 +40,9 @@ export default function EnrollButton({ course, onEnrollmentSuccess, className, s
     } catch (error: any) {
       toast({
         title: "Enrollment Failed",
-        description: error.message || "Please sign in to enroll in courses.",
-        variant: "destructive",
+        description: error.message || "📝 Please fill out the form completely to continue. Thanks for your interest!.",
+        variant: "default",
+        className: "bg-green-100 text-green-800 border-green-300", // Tailwind override for green styling 
       })
     } finally {
       setIsEnrolling(false)
