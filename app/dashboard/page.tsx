@@ -32,8 +32,9 @@ export default function DashboardPage() {
         console.error("Error fetching enrollments:", error)
         toast({
           title: "Error",
-          description: "Failed to fetch your enrollments. Please try again.",
-          variant: "destructive",
+          description: "Fill from for your enrollments. thanks!.",
+          variant: "default",
+          className: "bg-green-100 border-green-500 text-green-800",
         })
       }
     }
