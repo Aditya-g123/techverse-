@@ -13,7 +13,7 @@ export default function AboutSection() {
         "Visionary leader with 3+ years in tech education. Passionate about democratizing quality education.",
       achievements: ["1000+ Students Mentored", "95% Placement Rate", "Industry Expert"],
       social: {
-        linkedin: "https://www.linkedin.com/in/aditya-gupta-297575323/",
+        linkedin: "#",
         twitter: "#",
         email: "aditya@techverse.com",
       },
@@ -21,10 +21,10 @@ export default function AboutSection() {
     {
       name: "Riya",
       role: "Head of Curriculum",
-      image: "",
+      image: " ",
       description:
         "Expert curriculum designer with experience at top tech companies. Ensures industry-relevant content.",
-      achievements: ["15+ Years Experience", "Curriculum Expert", "Industry Consultant"],
+      achievements: ["5+ Years Experience", "Curriculum Expert", "Industry Consultant"],
       social: {
         linkedin: "#",
         twitter: "#",
