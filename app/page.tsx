@@ -27,3 +27,15 @@ export default function HomePage() {
     </>
   )
 }
+import { Html, Head, Main, NextScript } from "next/document";
+
+export default function Document() {
+  return (
+    <Html>
+      <Head>
+        {/* Google Analytics tag (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-XH1BXE2Y8C"
+        ></script>
+       
