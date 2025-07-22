@@ -27,15 +27,34 @@ export default function HomePage() {
     </>
   )
 }
-import { Html, Head, Main, NextScript } from "next/document";
+import { useEffect } from 'react';
 
-export default function Document() {
-  return (
-    <Html>
-      <Head>
-        {/* Google Analytics tag (gtag.js) */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-XH1BXE2Y8C"
-        ></script>
+const GA_TRACKING_ID = 'G-XH1BXE2Y8C';
+
+declare global {
+  interface Window {
+    dataLayer: Record<string, unknown>[];
+    gtag: (...args: unknown[]) => void;
+  }
+}
+
+export const useGoogleAnalytics = () => {
+  useEffect(() => {
+    // Load gtag script
+    const script = document.createElement('script');
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`;
+    script.async = true;
+    document.head.appendChild(script);
+
+    // Initialize dataLayer and gtag
+    window.dataLayer = window.dataLayer || [];
+    function gtag(...args: unknown[]) {
+      window.dataLayer.push(args);
+    }
+    window.gtag = gtag;
+
+    gtag('js', new Date());
+    gtag('config', GA_TRACKING_ID);
+  }, []);
+};
        
